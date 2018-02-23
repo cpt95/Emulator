@@ -1,0 +1,7 @@
+﻿  main.cpp
+c:\users\mifo\documents\visual studio 2015\projects\ssemulator\ssemulator\main.cpp(888): warning C4018: '<': signed/unsigned mismatch
+c:\users\mifo\documents\visual studio 2015\projects\ssemulator\ssemulator\main.cpp(199): warning C4715: 'handle_addres_type': not all control paths return a value
+c:\users\mifo\documents\visual studio 2015\projects\ssemulator\ssemulator\main.cpp(228): warning C4715: 'handle_addres_type_jmp': not all control paths return a value
+c:\users\mifo\documents\visual studio 2015\projects\ssemulator\ssemulator\main.cpp(258): warning C4715: 'handle_addres_type_store': not all control paths return a value
+  SSEmulator.vcxproj -> C:\Users\mifo\Documents\Visual Studio 2015\Projects\SSEmulator\x64\Debug\SSEmulator.exe
+  SSEmulator.vcxproj -> C:\Users\mifo\Documents\Visual Studio 2015\Projects\SSEmulator\x64\Debug\SSEmulator.pdb (Full PDB)

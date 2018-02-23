@@ -1,0 +1,6 @@
+﻿  main.cpp
+c:\users\mifo\documents\visual studio 2015\projects\ssemulator\ssemulator\main.cpp(643): error C2065: 'INT_0_exit': undeclared identifier
+c:\users\mifo\documents\visual studio 2015\projects\ssemulator\ssemulator\main.cpp(644): error C2065: 'INT_3_exit': undeclared identifier
+c:\users\mifo\documents\visual studio 2015\projects\ssemulator\ssemulator\main.cpp(645): error C2065: 'INT_4_exit': undeclared identifier
+c:\users\mifo\documents\visual studio 2015\projects\ssemulator\ssemulator\main.cpp(646): error C2065: 'INT_5_exit': undeclared identifier
+c:\users\mifo\documents\visual studio 2015\projects\ssemulator\ssemulator\main.cpp(740): error C2660: 'init_I_O': function does not take 1 arguments

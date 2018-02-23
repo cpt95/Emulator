@@ -1,0 +1,51 @@
+.data
+a: DD 100
+
+
+.global START
+ORG ( 0x20 + 51 + 'A' + 0b010110 * ( 2 - 7 ) )
+.text
+START:
+LOAD R1, a ; asdadasdsadda
+LOAD R0, #0
+LOAD R2, #1
+loop: ADD R0, R0, R1
+SUB R1, R1, R2
+JNZ R1, loop ; asddddads
+MUL R1, R1, R1
+CALL funkcija
+RET
+
+funkcija:
+
+LOAD R3, a
+DIV R0, R0, R3
+RET
+
+.end
+
+
+ORG ( 0x20 + 51 + 'A' + 0b010110 * ( 2 - 7 ) )
+.data
+ada: ; .long a
+.global ada, write, kurchina ; asdasd
+b: DB ( 0x20 + 51 + 'A' + 0b010110 * ( ada ) )
+c: DD ( 90 + 20 ), 0b110 DUP x, a
+sim2 DEF b - $ - c + ada + ada
+sim DEF ada - b + c + 50 * ( ada - b ) ; 0xF + c ; kurcinas
+DD 5 * sim DUP 56
+DB 11 DUP 0xFF
+.text
+START:
+z1: CALL write
+JMP $   a
+z2: LOAD R1, $z4
+z3: LOAD R0, ( $ ) + 90 + ( c - b )
+z4: LOAD R12, [R13 + $ + 10]
+z5: LOAD R1, [R3 + 0x10]
+z6: ADD R1, R0, R10
+a: LOAD R1, [R11]
+z7: LOAD R2, #100 ; ucitava adresu lokacije a u registar R2
+z8: LOAD R3, $b ; ucitava sadrzaj lokacije a u registar R3 koristeci PC relativno adresiranje
+x: JZ R0, x ; apsolutni skok na lokaciju x
+z9: JZ R0, $x ; PC relativni skok na lokaciju x

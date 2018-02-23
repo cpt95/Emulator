@@ -1,0 +1,23 @@
+#TabelaSimbola
+SEG 1 .data 1 0x0 0x6 L
+SYM 2 pocetak_stringa 1 0x0 L
+SYM 3 kraj_stringa 1 0x6 L
+SYM 4 out -1 0x80 L
+SYM 5 duzina_stringa -1 0x6 L
+SEG 6 .text 6 0x0 0x4c L
+SYM 7 START 6 0x0 G
+SYM 8 loop 6 0x20 L
+SYM 9 kraj 6 0x44 L
+.data
+61 73 64 71 77 65 
+#rel.text
+0x28 A 6
+0x30 A 1
+0x40 A 6
+.text
+10 c8 00 00 80 00 00 00 10 80 00 00 00 00 00 00 
+10 81 00 00 06 00 00 00 10 84 00 00 01 00 00 00 
+31 02 08 00 04 c2 00 00 00 00 00 00 10 e3 00 18 
+00 00 00 00 11 43 40 18 30 00 01 00 02 c0 00 00 
+20 00 00 00 37 00 00 00 00 00 00 00 
+#end
